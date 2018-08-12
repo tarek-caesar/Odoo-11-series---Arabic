@@ -1,23 +1,25 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "real_estate",
+    'name': "Real Estate",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        This module includes property model ,a menu and a view""",
 
     'description': """
-        Long description of module's purpose
+        This module includes : \n
+	-Model (property) \n
+	-Menu & action for property model \n
+	-View for property model \n
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Ahmed Tarek",
+
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
+    'category': 'CRM',
+    'version': '1.0',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
@@ -28,8 +30,5 @@
         'views/views.xml',
         'views/menus.xml',
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+    
 }
