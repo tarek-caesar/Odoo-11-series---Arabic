@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+        <!-- actions opening views on models -->
+
+        <record model="ir.actions.act_window" id="real_estate_action_property">
+          <field name="name">real estate action property</field>
+          <field name="res_model">real_estate.property</field>
+          <field name="view_mode">tree,form</field>
+          <field name="view_id" ref="real_estate_view_property"/>
+        </record>
+
+        <menuitem name="Property" id="real_estate_menu_property" parent="crm.crm_menu_pipeline"
+              action="real_estate_action_property"/>
+    </data>
+</odoo>
